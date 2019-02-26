@@ -1,0 +1,96 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Alegreya Sans SC', sans-serif; */
+    /* font-family: 'Lato', sans-serif; */
+    margin-top: 75px;
+    color: #050505;
+}
+
+p {
+    margin-top: 1rem;
+    /* text-align: center; */
+}
+
+.card {
+    border: none;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1186C4;
+    position: fixed;
+    text-transform: uppercase;
+    
+}
+
+.navbar-toggler {
+    color: #30011E;
+}
+#mainNavbar .nav-link {
+    margin: 10px;
+    color: #FDF5F2;
+}
+
+#mainNavbar li a:hover {
+    color: #E71D2C;
+    /* font-weight: 600; */
+}
+
+.jumbotron {
+    height: 350px;
+    width: 100%;
+    background-image: url("../img/bg-img.jpg");
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#intro {
+    font-size: 1.8rem;
+    /* font-weight: 700; */
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 0%;
+    top: 23%;
+    width: 100%;
+    text-align: left;
+}
+
+#page {
+    min-height: 720px;
+}
+/* #intro {
+    font-size: 1.5rem;
+} */
+
+.display-5 {
+    color:#E71D2C;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.display-4 {
+    text-transform: uppercase;
+}
+h5 {
+    text-transform: uppercase;
+}
+
+.btn.btn-outline-success {
+    color: rgb(24, 22, 49);
+    border-color: rgb(24, 22, 49);
+}
+.btn.btn-outline-success:hover {
+    background-color: #E71D2C;
+}
+
+#iconImages {
+    color: #1186C4;
+}
