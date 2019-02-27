@@ -3,7 +3,7 @@ body {
     /* font-family: 'Alegreya Sans SC', sans-serif; */
     /* font-family: 'Lato', sans-serif; */
     margin-top: 75px;
-    color: #050505;
+    color: #3E2D29;
 }
 
 p {
@@ -11,6 +11,10 @@ p {
     /* text-align: center; */
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 .card {
     border: none;
 }
@@ -23,7 +27,7 @@ p {
 
 .navbar {
     width: 100%;
-    background-color: #1186C4;
+    background-color: #C69889;
     position: fixed;
     text-transform: uppercase;
     
@@ -34,23 +38,26 @@ p {
 }
 #mainNavbar .nav-link {
     margin: 10px;
-    color: #FDF5F2;
+    color: #743B32;
 }
 
 #mainNavbar li a:hover {
-    color: #E71D2C;
+    color: #F0E3CE;
     /* font-weight: 600; */
 }
 
 .jumbotron {
-    height: 350px;
+    height: 300px;
     width: 100%;
-    background-image: url("../img/bg-img.jpg");
-    opacity: 1;
+    background-image: url("../img/background.jpg");
+    opacity: 0.8;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
 }
 
 #intro {
@@ -71,11 +78,11 @@ p {
     font-size: 1.5rem;
 } */
 
-.display-5 {
+/* .display-5 {
     color:#E71D2C;
     font-weight: 700;
     text-transform: uppercase;
-}
+} */
 .display-4 {
     text-transform: uppercase;
 }
@@ -88,9 +95,9 @@ h5 {
     border-color: rgb(24, 22, 49);
 }
 .btn.btn-outline-success:hover {
-    background-color: #E71D2C;
+    background-color: #C69889;
 }
 
 #iconImages {
-    color: #1186C4;
+    color: #743B32;
 }
