@@ -1,3 +1,6 @@
+html    {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Barlow', sans-serif;
     /* font-family: 'Alegreya Sans SC', sans-serif; */
@@ -23,7 +26,7 @@ p {
 
 .navbar {
     width: 100%;
-    background-color: #1186C4;
+    background-color: #1286C2;
     position: fixed;
     text-transform: uppercase;
     
@@ -32,18 +35,18 @@ p {
 .navbar-toggler {
     color: #30011E;
 }
-#mainNavbar .nav-link {
+#mainNavbar li a {
     margin: 10px;
-    color: #FDF5F2;
+    color: #FFFFFF;
 }
 
 #mainNavbar li a:hover {
-    color: #E71D2C;
+    color: #AC444C;
     /* font-weight: 600; */
 }
 
 .jumbotron {
-    height: 350px;
+    height: 275px;
     width: 100%;
     background-image: url("../img/bg-img.jpg");
     opacity: 1;
@@ -59,9 +62,10 @@ p {
     color: rgb(0, 0, 0);
     position: absolute;
     left: 0%;
-    top: 23%;
+    /* top: 23%; */
     width: 100%;
     text-align: left;
+    align-content: center;
 }
 
 #page {
@@ -92,5 +96,5 @@ h5 {
 }
 
 #iconImages {
-    color: #1186C4;
+    color: #1286C2;
 }
